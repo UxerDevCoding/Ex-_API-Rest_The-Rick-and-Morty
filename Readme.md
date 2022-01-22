@@ -1,4 +1,4 @@
-# Exercise APIs - The Rick and Morty
+### Ex_Api Rick and Morty
 
 1. Make a TODO list with data in data.json. You can use bootstrap to create a card list.
 2. Make a CRUD to edit data in json file.
@@ -26,4 +26,4 @@
 
 ## Autor
 
-Omar Hevia
+Omar Hevia 
