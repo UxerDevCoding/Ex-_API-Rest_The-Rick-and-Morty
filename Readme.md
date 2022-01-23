@@ -1,29 +1,22 @@
-### Ex_Api Rick and Morty
+# Ex_Api Rick and Morty
 
-1. Make a TODO list with data in data.json. You can use bootstrap to create a card list.
-2. Make a CRUD to edit data in json file.
+## Descripción
+```
+Utilización de una API Rest cuya información será utilzada para crear Cards a través de un template de html. También, se utiliza la propiedad de fragment para evitar el reflujo y se incorpora un "spinnerLoading" para el momento de renderizado en el navegador.
+```
+### Lenguajes utilizados
+```
+HTML5 y JavaScript.
+```
+## Instalación
 
-## Requierement
+Bootstrap CDN.
 
-- Node.js
-- NPM
-
-## Installation
-
-- npm install
-
-## Start Server
-
-- json-server --watch data.json
-
-## Dev Dependencies
-
-- json-server (<a>https://www.npmjs.com/package/json-server</a>)
-
-## Thanks to
+## API utilizada
 
 - The Rick and Morty API (https://rickandmortyapi.com/)
 
-## Autor
-
+### Realizado por
+```
 Omar Hevia 
+```
