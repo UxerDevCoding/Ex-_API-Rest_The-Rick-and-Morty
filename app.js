@@ -4,21 +4,20 @@ const spinnerCard = document.getElementById("loading");
 const fragment = document.createDocumentFragment();
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetchData()
+    getData()
 });
 
-const fetchData = async () => {
+const getData = async () => {
 
     try {
         loadingData(true);
-
         const response= await fetch("https://rickandmortyapi.com/api/character");
         const data = await response.json();
         // console.log(data);
         createCard(data);
     } catch (error) {
         //console.log(error); 
-    }finally{
+    } finally {
         loadingData(false);
     }
 };
@@ -40,9 +39,8 @@ const createCard = (data) => {
 
 const loadingData = (state) => {
     if (state) {
-        loading.classList.remove("d-done");
-        
-    }else {
+        loading.classList.remove("d-done");  
+    } else {
         loading.classList.add("d-done");
     }
 };
